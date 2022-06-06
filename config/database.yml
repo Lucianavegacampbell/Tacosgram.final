@@ -24,6 +24,6 @@ test:
 production:
   <<: *default
   adapter: postgresql
-   database: lu-tacosgram_production
-   username: lu-tacosgram
-  password: <%= ENV["LU-TACOSGRAM_DATABASE_PASSWORD"] %>
+   database: lu_tacosgram_production
+   username: lu_tacosgram
+  password: <%= ENV["LU_TACOSGRAM_DATABASE_PASSWORD"] %>
